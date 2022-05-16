@@ -90,11 +90,12 @@ SAVE ARTIFACTS LOCAL:
 1. add "-e SAVE_ARTIFACTS_LOCAL='True'"
 2. add "-v /tmp:/tmp" 
 3. git clone https://github.com/cloud-bulldozer/benchmark-operator /tmp/benchmark-operator
+
+### Run vdbench workload in Pod using OpenShift 
 ![](media/benchmark-runner-demo.gif)
 
-## Run workload in Pod using Kubernetes or OpenShift
-
-[TBD]
+### Run vdbench workload in Pod using Kubernetes
+![](media/benchmark-runner-k8s-demo.gif)
 
 ## Grafana dashboards
 
@@ -103,6 +104,9 @@ There are 3 grafana dashboards templates:
 ![](media/benchmark-runner-ci-status.png)
 2. [benchmark-runner-report.json](grafana/benchmark-runner-report.json)
 ![](media/benchmark-runner-report.png)
+
+## Run workload in Pod using Kubernetes or OpenShift
+[TBD]
 
 ** After importing json in grafana, you need to configure elasticsearch data source. (for more details: see [HOW_TO.md](HOW_TO.md))
 
